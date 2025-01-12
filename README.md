@@ -1,5 +1,5 @@
 (1) What do these codes do?
-- Automatically processes user's Single Nucleotide Polymorphism (SNP) exome data, then compiles it with the Phase 3 of 1000 Genome data (GRCh38) data to perform 2-Dimensional (2-D) and 3-Dimensional (3-D) Principal Component Analysis (PCA).
+- Automatically processes user's Single Nucleotide Polymorphism (SNP) exome data, then compiles it with the Phase 3 of 1000 Genome data (GRCh38) data to generate 2-Dimensional (2-D) and 3-Dimensional (3-D) Principal Component Analysis (PCA) plots.
 
 (2) What are the required files from the user to use this code?
 - VCF file containing the SNP exome data
