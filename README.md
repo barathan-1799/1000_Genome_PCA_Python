@@ -9,10 +9,10 @@
 - Step 2: Upload your VCF file alongside all other given Python scripts (.py files) and csv files.
 - Step 3: Run the Python notebook (.ipynb file).
 - Step 4: Provide the necessary responses (inputs) as requested by the program.
-- Step 5: Allow some time for the code to finish running (can take up to 8 hours or more depending on the hardware specifications of the user's device).
+- Step 5: Allow some time for the code execution (can take up to 8 hours or more depending on the hardware specifications of the user's device).
 
 (4) What are the hardware and software requirements to run these codes?
-- Python IDE (these codes were developed and tested using the standard version of Google Collaboratory with 12.67 GB RAM and 107 GB disk space)
+- Python IDE (these codes were developed and tested using the standard version of Google Collaboratory with 12.7 GB RAM and 107.7 GB disk space)
 - Python 3
 
 (5) Why use this program?
@@ -22,5 +22,5 @@
 - This program directly extracts the Phase 3 of 1000 Genome data VCF files available online (https://hgdownload.soe.ucsc.edu/gbdb/hg38/1000Genomes) without requiring the user to individually download and unzip these large-sized files on their respective devices (the zipped VCF file for each chromosome can be as large as 1.1 GB).
 
 (6) What are the limitations of this program?
-- This program doesn't analyze genetic mutations of the INDEL type (SNPs of INDEL type are filtered out as part of the data processing steps)
-- The data compiled using the user's exome data and 1000 Genome data only undergoes one step of post-processing, namely Linkage Disequilibrium (LD) filtration.
+- This program doesn't analyze genetic mutations of the INDEL type (SNPs of INDEL type are filtered out as part of the data processing step).
+- The data compiled using the user's exome data and 1000 Genome data only undergoes one step of post-processing, namely filtration based on a user-specified Linkage Disequilibrium (LD) threshold value.
