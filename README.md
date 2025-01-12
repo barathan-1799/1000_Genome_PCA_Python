@@ -1,17 +1,17 @@
-(1) What do these codes do?
-- Automatically processes user's Single Nucleotide Polymorphism (SNP) exome data, then compiles it with the Phase 3 of 1000 Genome data (GRCh38) data to generate 2-Dimensional (2-D) and 3-Dimensional (3-D) Principal Component Analysis (PCA) plots.
+(1) What's the use of this program?
+- Automatically extracts and processes user's Single Nucleotide Polymorphism (SNP) exome data, then compiles it with the Phase 3 of 1000 Genome data (GRCh38) data based on matching chromosomal loci (POS) of the SNPs to generate 2-Dimensional (2-D) and 3-Dimensional (3-D) Principal Component Analysis (PCA) plots.
 
-(2) What are the required files from the user to use this code?
+(2) What are the required files from the user to use this program?
 - VCF file containing the SNP exome data
 
-(3) How to use these codes?
+(3) How to use this program?
 - Step 1: Upload the Python notebook (.ipynb file) to the IDE of your choice.
-- Step 2: Upload your VCF file alongside all other given Python scripts (.py files) and csv files.
+- Step 2: Upload the VCF file containing your exome data alongside all other given Python scripts (.py files) and csv files.
 - Step 3: Run the Python notebook (.ipynb file).
 - Step 4: Provide the necessary responses (inputs) as requested by the program.
 - Step 5: Allow some time for the code execution (can take up to 8 hours or more depending on the hardware specifications of the user's device).
 
-(4) What are the hardware and software requirements to run these codes?
+(4) What are the hardware and software requirements to run this program?
 - Python IDE (these codes were developed and tested using the standard version of Google Collaboratory with 12.7 GB RAM and 107.7 GB disk space)
 - Python 3
 
