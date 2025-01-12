@@ -16,9 +16,10 @@
 - Python 3
 
 (5) Why use this program?
-- This program was fully developed in Python with the aim of providing a "one-stop" solution for users to extract, process and analyze their exome data alongside 1000 Genome data via PCA.
+- This program was fully developed in Python with the aim of providing a "one-stop" solution for users to extract, process, compile, and perform PCA on their own exome data alongside the Phase 3 of 1000 Genome data.
 - Traditionally, bioinformaticians utilize softwares such as BCFTools and PLINK to analyze exome data from VCF files and perform PCA, respectively.
 - Since this program fully runs on Python with relatively small RAM and storage requirements, users can directly execute these codes via online Python IDEs such as Google Collaboratory without having to download Jupyter, etc.
+- Additionally, these program directly accesses the Phase 3 of 1000 Genome data VCF files without requiring the user to download these large-sized files (the VCF file for each chromosome can be as large as 1.1 GB).
 
 (6) What are the limitations of this program?
 - This program doesn't analyze genetic mutations of the INDEL type (SNPs of INDEL type are filtered out as part of the data processing steps)
