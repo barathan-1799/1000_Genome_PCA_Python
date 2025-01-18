@@ -17,10 +17,10 @@
 
 (5) Why use this program?
 - This program was fully developed in Python with the aim of providing a "one-stop" solution for users to extract, process, compile, and perform PCA on their own exome data alongside the Phase 3 of 1000 Genome data.
+- Over 40,000 SNPs can be analyzed by this program using hardware requirements that do not exceed 12.7 GB RAM and 107.7 GB disk space.
 - Traditionally, bioinformaticians utilize softwares such as BCFTools and PLINK to analyze exome data from VCF files and perform PCA, respectively.
 - Since this program fully runs on Python with relatively small RAM and storage requirements, users can directly execute these codes via online Python IDEs such as Google Collaboratory without having to download Jupyter, etc.
 - This program directly extracts the Phase 3 of 1000 Genome data VCF files available online (https://hgdownload.soe.ucsc.edu/gbdb/hg38/1000Genomes) without requiring the user to individually download and unzip these large-sized files on their respective devices (the zipped VCF file for each chromosome can be as large as 1.1 GB).
-- Over 40,000 SNPs can be analyzed by this program using hardware requirements that do not exceed 12.7 GB RAM and 107.7 GB disk space.
 
 (6) What are the limitations of this program?
 - This program doesn't analyze genetic mutations of the INDEL type (SNPs of INDEL type are filtered out as part of the data processing step).
