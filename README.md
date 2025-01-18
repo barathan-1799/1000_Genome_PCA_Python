@@ -12,7 +12,7 @@
 - Step 5: Allow some time for the code execution (can take up to 8 hours or more depending on the hardware specifications of the user's device).
 
 (4) What are the hardware and software requirements to run this program?
-- Python IDE (these codes were developed and tested using the standard version of Google Collaboratory with 12.7 GB RAM and 107.7 GB disk space)
+- Python IDE (these codes were developed, tested and executed using the standard version of Google Collaboratory with 12.7 GB RAM and 107.7 GB disk space)
 - Python 3
 
 (5) Why use this program?
